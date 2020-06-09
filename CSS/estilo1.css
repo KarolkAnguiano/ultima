@@ -1,0 +1,426 @@
+root:{
+  --azul:#04ADBF;
+  --verde1:#025159;
+  --verde-petroleo:#17736A;
+  --naranja:#F28D35;
+  --fuego:#F25D27;
+}
+
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+}
+
+/*----------------------------------------------------------*/
+
+.menu {
+  background: #17736A;
+  color: white;
+  padding: 2rem 0;
+
+  /* hacer el menu fijo */
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* ocuapamos todo el ancho */
+  right: 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  /* lo alineamos al centro */
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+/* logo */
+.logo {
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* todos los "ul" que esten dentro de "navigation" */
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+  /* uno al lado del otro */
+  display: inline-block;
+}
+
+/* los enlaces dentro del menu */
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+  background: black;
+}
+.navigation li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+      }
+      
+      .navigation li:hover > ul {
+        display:block;
+      }
+      
+      .navigation li ul li {
+        position:relative;
+      }
+      
+      .navigation li ul li ul {
+        right:-140px;
+        top:0px;
+      }
+/*----------------------------------------------------------*/
+
+.main {
+  padding-top: 12rem;
+}
+
+/*-----------------------------*/
+.carousel{ 
+    width:100%; 
+} 
+.item img{ 
+    object-fit:cover; 
+    height:650px !important; 
+    width:100%; 
+} 
+
+
+/*-------------------------------------------------------------*/
+.section2{
+    width: 100%;
+    height:500px;
+    background-image: url('../img/P6.jpg');
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    opacity: 90%;
+}
+.Inf{
+  
+  width: 100%;
+  height: 500px;
+  float: center;
+  padding: 100px;
+  text-align: left;
+
+}
+
+.services{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background: #F25D27;
+  opacity:0.45;
+  filter:alpha(opacity=45);
+}
+.serv{
+  width: 30px;
+  height: 30px;
+  float: left;
+  padding: 10px;
+  margin: 110px;
+}
+.icons{
+  width: 80px;
+  height: 80px;
+
+}
+
+/*---------------------------------------------------------*/
+.Exito{
+  width: 400px;
+  margin: 0px auto;
+  text-align: center;
+}
+.personas{
+  width: 100%;
+  height: 500px;
+
+}
+.per{
+  width: 749.2px;
+  height: 500px !important;
+  background-image: url('../img/team.png');
+  float: left;
+}
+.team{
+width: 749.2px;
+height: 500px !important;
+}
+.imgs{
+  width: 50%;
+  height: 500px;
+  float: right;
+}
+.cuadros{
+  width: 375px;
+  height: 250px;
+}
+.imags{
+  width: 50%;
+  height: 250px;
+  float: right;
+}
+
+/*-------------------------------------------------------*/
+.section4{
+    width: 100%;
+    height: 700px;
+    background-color: : var(--azul);
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    opacity: 90%;
+    padding-bottom: 50px;
+}
+.section4 p{
+padding: 7px
+}
+.title{
+  padding: 15px;
+}
+
+.sections{
+  width: 170px;
+  height: 150px;
+  float: right;
+  
+  margin: 165px;
+}
+.iconos{
+  width: 100px;
+  height: 100px;
+  
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------*/
+
+/*PIE DE PAGINA*/
+.footer {
+  background: #17736A;
+  color: white;
+  padding: 2rem 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin-top: 590px;
+  height: 1000px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo2-nav-container2 {
+  display: flex;
+  justify-content: space-between;
+  /* lo alineamos al centro */
+  align-items: left;
+  flex-wrap: wrap;
+}
+
+
+.footer-icon2 {
+  display: none;
+}
+
+/* todos los "ul" que esten dentro de "navigation" */
+.navigation2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation2 ul li {
+  /* uno al lado del otro */
+  display: inline-block;
+}
+
+/* los enlaces dentro del menu */
+.navigation2 ul li a {
+  display: block;
+  padding: 1rem 3rem;
+  transition: all 0.2s linear;
+  border-radius: 5px;
+}
+
+.navigation2 ul li a:hover {
+  background: black;
+}
+.navigation2 li ul {
+        display:none;
+        position:absolute;
+        min-width:240px;
+      }
+      
+      .navigation2 li:hover > ul {
+        display:block;
+      }
+      
+      .navigation2 li ul li {
+        position:relative;
+      }
+      
+      .navigation2 li ul li ul {
+        right:-140px;
+        top:0px;
+      }
+
+
+
+.footer .social_media{
+  text-align: center;
+}
+
+.footer .social_media ul{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.footer .social_media ul li a{
+  display: block;
+  margin: 0 5px;
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  color: #222222;
+  line-height: 50px;
+  border-radius: 3px;
+
+}
+
+.footer .social_media ul li a:hover{
+  color: #fff;
+}
+
+.footer .social_media ul li a.facebook:hover{
+  background: #3b5998; 
+}
+
+.footer .social_media ul li a.twitter:hover{
+  background: #1da1f2; 
+}
+
+.footer .social_media ul li a.instagram:hover{
+  background: #c32aa3; 
+}
+
+.footer .social_media ul li a.whatsapp:hover{
+  background: #25d366; 
+}
+
+.footer .social_media{
+  color: #adadad;
+}
+
+@media (max-width:768px) {
+  .wrapper .navbar .logo{
+    font-size: 20px;
+  }
+/*----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* REPONSIVE */
+/* caracteristicas de ancho maximo de 767px */
+
+@media only screen and (max-width: 767px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .navigation ul.show{
+        display: block;
+    }
+      
+    .navigation ul li {
+        display: block;
+      }
+      
+      /* los enlaces dentro del menu */
+      .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.2s linear;
+        border-radius: 5px;
+      }
+      
+      .navigation ul li a:hover {
+        background: #cc4444;
+      }
+
+#personas {
+        columns:2;
+    }
+
+}
+
+        
+/* Móviles en vertical */
+
+@media (max-width: 1000px) {
+    #personas {
+        columns: 1;
+    }
+    #incio{
+      display: none;
+    }
+
+}
